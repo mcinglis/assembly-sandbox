@@ -1,6 +1,10 @@
 # Assembly Sandbox
 
-This repository contains my forays into assembly programming.
+This repository contains my forays into assembly programming, and C disassembly. The code is written for Linux x86-64. The code is based on examples at:
+
+- <http://cs.lmu.edu/~ray/notes/gasexamples/>
+- <https://nickdesaulniers.github.io/blog/2014/04/18/lets-write-some-x86-64/>
+- <https://blogs.oracle.com/ksplice/entry/hello_from_a_libc_free>
 
 Things to try with the object files and executables:
 
