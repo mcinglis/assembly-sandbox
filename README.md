@@ -6,6 +6,10 @@ This repository contains my forays into assembly programming, and C disassembly.
 - <https://nickdesaulniers.github.io/blog/2014/04/18/lets-write-some-x86-64/>
 - <https://blogs.oracle.com/ksplice/entry/hello_from_a_libc_free>
 
+The code in this repository compiled and worked (seemingly) for me, on Fedora 20 with an Intel i7-2620M, with GNU as 2.23.2 and GCC 4.8.2.
+
+If you could suggest an improvement, please [create an issue](https://github.com/mcinglis/assembly-sandbox/issues).
+
 Things to try with the object files and executables:
 
 - Run `objdump -s example` to display the content of an object file's sections.
@@ -36,4 +40,6 @@ Run `gcc -S -masm=intel -fno-asynchronous-unwind-tables` to compile a high-level
 
 - GCC and Clang generate AT&T syntax by default. Intel syntax is easier to read than AT&T syntax.
 - `-fno-asynchronous-unwind-tables` means the assembly won't have a ton of CFI directives for building the DWARF unwind tables; this is metadata that doesn't affect code generation.
+
+The `c-to-assembly` directory contains some C code and a Makefile to generate corresponding assembly files in AT&T syntax, Intel syntax, and Intel syntax under `-O2`.
 
