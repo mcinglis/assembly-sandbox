@@ -1,6 +1,6 @@
 # Assembly Sandbox
 
-This repository contains my forays into assembly programming, and C disassembly. The code is written for Linux x86-64. The code is based on examples at:
+This repository contains my forays into AMD64 assembly programming, and C disassembly. The code is based on examples at:
 
 - <http://cs.lmu.edu/~ray/notes/gasexamples/>
 - <https://nickdesaulniers.github.io/blog/2014/04/18/lets-write-some-x86-64/>
@@ -23,6 +23,11 @@ Check out the Makefile of `libc-free-world`, which is designed to produce a very
 
 
 ## Notes
+
+### Useful documents
+
+- [AMD64 Programmer's Manual - Volume 1: Application Programming](http://amd-dev.wpengine.netdna-cdn.com/wordpress/media/2012/10/24592_APM_v11.pdf)
+- [AMD64 System V Application Binary Interface](http://www.x86-64.org/documentation/abi.pdf)
 
 ### Suffix convetion for numerous instructions
 

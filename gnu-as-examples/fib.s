@@ -1,4 +1,6 @@
 # An x86-64 program that writes the first 90 Fibonacci numbers.
+# Based on code at: <http://cs.lmu.edu/~ray/notes/gasexamples/>
+
 
 .intel_syntax
 .intel_mnemonic
