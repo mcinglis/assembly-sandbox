@@ -1,6 +1,6 @@
 # Assembly Sandbox
 
-This repository contains my forays into AMD64 assembly programming, and C disassembly. The code is based on examples at:
+This repository contains my forays into x86-64 assembly programming, and C disassembly. The code is based on examples at:
 
 - <http://cs.lmu.edu/~ray/notes/gasexamples/>
 - <https://nickdesaulniers.github.io/blog/2014/04/18/lets-write-some-x86-64/>
